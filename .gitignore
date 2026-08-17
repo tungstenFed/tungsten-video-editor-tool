@@ -1,2 +1,43 @@
-tungsten_simple_video_editor\workflows
-tungsten_simple_video_editor\dist\TungstenVideoEditor
+# Build outputs
+dist/
+build/
+TungstenVideoEditor-Portable/
+*.spec
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+.tmp/
+*.tmp
+*.log
+
+# PyInstaller
+*.manifest
+*.exe
+
+# Whisper model cache (downloaded at runtime)
+.cache/
+
+# Credentials (never commit)
+credentials.json
+token.json
+.env.local
