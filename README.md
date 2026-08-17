@@ -33,5 +33,4 @@ Standalone Windows application for video editing tasks. No installation required
 - Output files saved to chosen folder (defaults to input file's folder)
 - yt-dlp version fixed at build time (no auto-update)
 
-## Support
-Report issues at: https://github.com/your-repo/tungsten-video-editor
+
